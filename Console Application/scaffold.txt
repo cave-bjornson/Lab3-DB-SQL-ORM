@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Data Source=.;Initial Catalog=HighSchoolDB;Integrated Security=true;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --namespace HighSchoolDB.Console.EFCore.Models --data-annotations --context HighSchoolDB
